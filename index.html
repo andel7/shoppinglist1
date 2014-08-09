@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Shopping list</title>
+	<link rel="stylesheet" href="css/main.css">
+	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body>
+	<div class="legend">
+		<h1>Console Shopping</h1>
+
+		<p>
+			Shopping 31173 style<br/>
+			- To add product item to the list simply type name of the product you want to buy and press Enter <br/>
+			- To delete product item to the list simply type <span class="commands">delete</span> and the number of the product and press Enter <br/>
+			- To mark a product items as purchased simply type <span class="commands">done </span> and the number of the product and press Enter <br/>
+			- To UNmark a product items as purchased simply type <span class="commands">undo </span> and the number of the product and press Enter <br/>
+			- To delete all product items from the list simply type <span class="commands">reset</span> and press Enter <br/>
+
+		</p>
+	</div>
+	<div class="main">
+		<span class="commands">>>></span><input id="cmd_input" type="text">
+	</div>
+	<div>
+		<p id="error"></p>
+	</div>
+	<div id="shopping_list">
+		<h1>My list</h1>
+		<ol id="oreder_list"></ol>
+	</div>
+</body>
+</html>

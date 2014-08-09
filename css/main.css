@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "terminal";
+  src: url(./terminal-dosis.light.ttf) format("truetype");
+}
+
+
+body {
+	background-color: black;
+	color: #33CC33;
+	font-family: terminal;
+}
+.commands {
+	font-size: 1.1em;
+	font-weight: 600;
+	color: #66FF33;
+}
+input {
+	background-color: black;
+	color:  #66FF33;
+	font-size: 1.3em;
+	font-weight: 100;
+	font-family: terminal;
+	border: 0
+
+}
+*:focus {
+    outline: 0;
+
+}
+h1 {
+	border-bottom: 1px dashed #66FF33;
+}
+
+#error {
+	color: red;
+}
+li {
+	font-size: 1.3em;
+}
